@@ -1,0 +1,56 @@
+                    @media(max-width:600px) {
+                        /* 
+    phone
+    */
+                        body {
+                            background-color: red;
+                        }
+                        div::after {
+                            content: 'This is  mobile compatible'
+                        }
+                    }
+                    
+                    @media(min-width: 600px) {
+                        /*porttrain table and big phones*/
+                        body {
+                            background-color: aqua;
+                        }
+                        div::after {
+                            content: 'portrait table and big phones'
+                        }
+                    }
+                    
+                    @media(min-width: 868px) {
+                        /*tablet */
+                        body {
+                            background-color: rgb(107, 0, 89);
+                        }
+                        div::after {
+                            content: ' tablet '
+                        }
+                    }
+                    
+                    @media(min-width: 992px) {
+                        /* Laptops*/
+                        body {
+                            background-color: rgb(0, 187, 16);
+                        }
+                        div::after {
+                            content: 'Laptops'
+                        }
+                    }
+                    
+                    @media(min-width: 1200px) {
+                        /*Larger Screen*/
+                        body {
+                            background-color: rgb(116, 6, 92);
+                        }
+                        div::after {
+                            content: 'Larger Screen'
+                        }
+                    }
+                    
+                    div {
+                        text-align: center;
+                        font-size: x-large;
+                    }
